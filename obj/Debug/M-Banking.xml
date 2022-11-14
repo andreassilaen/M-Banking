@@ -1,0 +1,396 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+M-Banking
+</name>
+</assembly>
+<members>
+<member name="T:M_Banking.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:M_Banking.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:M_Banking.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_BankDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_KategoriDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_PerusahaanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_RekeningDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_TransaksiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_TransaksiDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_UserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_BankRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_KategoriRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_PerusahaanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_RekeningRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_TransaksiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_TransaksiDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_UserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_BankRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_KategoriRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_PerusahaanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_RekeningRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_TransaksiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_TransaksiDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet.TB_UserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSetTableAdapters.TB_BankTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSetTableAdapters.TB_KategoriTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSetTableAdapters.TB_PerusahaanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSetTableAdapters.TB_RekeningTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSetTableAdapters.TB_TransaksiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSetTableAdapters.TB_TransaksiDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSetTableAdapters.TB_UserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:M_Banking._DB_M_BankingDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(M_Banking._DB_M_BankingDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:M_Banking._DB_M_BankingDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(M_Banking._DB_M_BankingDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:M_Banking._DB_M_BankingDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(M_Banking._DB_M_BankingDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:M_Banking._DB_M_BankingDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:M_Banking._DB_M_BankingDataSetTableAdapters.TableAdapterManager.UpdateAll(M_Banking._DB_M_BankingDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_BankDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_KategoriDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_PerusahaanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_RekeningDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_TransaksiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_TransaksiDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_UserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_BankRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_KategoriRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_PerusahaanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_RekeningRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_TransaksiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_TransaksiDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_UserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_BankRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_KategoriRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_PerusahaanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_RekeningRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_TransaksiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_TransaksiDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1.TB_UserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1TableAdapters.TB_BankTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1TableAdapters.TB_KategoriTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1TableAdapters.TB_PerusahaanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1TableAdapters.TB_RekeningTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1TableAdapters.TB_TransaksiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1TableAdapters.TB_TransaksiDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1TableAdapters.TB_UserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:M_Banking._DB_M_BankingDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(M_Banking._DB_M_BankingDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:M_Banking._DB_M_BankingDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(M_Banking._DB_M_BankingDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:M_Banking._DB_M_BankingDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(M_Banking._DB_M_BankingDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:M_Banking._DB_M_BankingDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:M_Banking._DB_M_BankingDataSet1TableAdapters.TableAdapterManager.UpdateAll(M_Banking._DB_M_BankingDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:M_Banking._DB_M_BankingDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
